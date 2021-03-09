@@ -1,11 +1,16 @@
 import React from 'react';
-import { BrowserRouter as Router, Switch, NavLink } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch, NavLink } from 'react-router-dom';
 import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import './App.css';
 
 import Footer from './components/Footer';
+import HomePage from './pages/HomePage';
+import AboutMePage from './pages/AboutMePage';
+import ContactPage from './pages/ContactPage';
+import ResumePage from './pages/ResumePage';
+import PortfolioPage from './pages/PortfolioPage';
 
 
 class App extends React.Component {
@@ -63,6 +68,11 @@ class App extends React.Component {
               </Switch> 
             </Navbar.Collapse>
             </Navbar>
+            <Route path="/" exact render={() => <HomePage title={this.state.home.title} subtitle={this.state.home.subtitle} text={this.state.home.text} />} />
+            <Route path="/aboutMe" exact render={() => <AboutMePage title={this.state.home.title}  />} />
+            <Route path="/contact" exact render={() => <ContactPage title={this.state.home.title}  />} />
+            <Route path="/resume" exact render={() => <ResumePage title={this.state.home.title}  />} />
+            <Route path="/portfolio" exact render={() => <PortfolioPage title={this.state.home.title}  />} />
             <Footer />
         </Container>
       </Router>
