@@ -1,8 +1,11 @@
 import React from 'react';
 
 import Card from "./Card";
+import Container from 'react-bootstrap/esm/Container';
+import Row from 'react-bootstrap/esm/Row';
 
 import testImg from '../assets/images/testImg.jpg'
+
 // import moduleName from '../assets/images/'
 // import moduleName from '../assets/images/'
 // import moduleName from '../assets/images/'
@@ -91,7 +94,12 @@ class Carousel extends React.Component {
 
     render() {
         return (
-            <Card />
+            <Container fluid={true}>
+            <Row className="justify-content-around">
+                {this.makeItems(this.state.items)}
+            </Row>
+            </Container>
+            
         )
     }
 }
