@@ -1,10 +1,14 @@
 import React from 'react';
+import CardInfo from './CardInfo';
 
 
 function Card (props) {
 
     return (
-       <p>Card works</p>
+       <div>
+        <img className="" src={props.item.imgSrc} alt={props.item.imgSrc} />
+        {props.item.selected && <CardInfo title={props.item.title} subtitle={props.item.subtitle} link={props.item.link}/> }
+       </div>
     );
 }
 
