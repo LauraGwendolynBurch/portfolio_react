@@ -7,9 +7,9 @@ function CardInfo (props) {
     const style = useSpring({opacity: 1, from: {opacity: 0}});
 
     return (
-       <animated.div className="" style={style}>
-        <p>{props.title}</p>
-        <p>{props.subtitle}</p>
+       <animated.div className="l-card-info" style={style}>
+        <p className="l-card-title">{props.title}</p>
+        <p className="l-card-sub-title">{props.subtitle}</p>
         <a href={props.link} target="blank" rel="noopener noreferrer">View</a>
        </animated.div>
     );
