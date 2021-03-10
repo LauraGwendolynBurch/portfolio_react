@@ -32,7 +32,7 @@ class App extends React.Component {
         subtitle: "Ideas | Creating | Design",
         text: "Portfolio"
       },
-      about: {
+      aboutMe: {
         title: "About Me",
       },
       contact: {
@@ -69,10 +69,10 @@ class App extends React.Component {
             </Navbar.Collapse>
             </Navbar>
             <Route path="/" exact render={() => <HomePage title={this.state.home.title} subtitle={this.state.home.subtitle} text={this.state.home.text} />} />
-            <Route path="/aboutMe" exact render={() => <AboutMePage title={this.state.home.title}  />} />
-            <Route path="/contact" exact render={() => <ContactPage title={this.state.home.title}  />} />
-            <Route path="/resume" exact render={() => <ResumePage title={this.state.home.title}  />} />
-            <Route path="/portfolio" exact render={() => <PortfolioPage title={this.state.home.title}  />} />
+            <Route path="/aboutMe" exact render={() => <AboutMePage title={this.state.aboutMe.title}  />} />
+            <Route path="/contact" exact render={() => <ContactPage title={this.state.contact.title}  />} />
+            <Route path="/resume" exact render={() => <ResumePage title={this.state.resume.title}  />} />
+            <Route path="/portfolio" exact render={() => <PortfolioPage title={this.state.portfolio.title}  />} />
             <Footer />
         </Container>
       </Router>
