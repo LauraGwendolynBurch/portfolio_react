@@ -1,9 +1,13 @@
 import React from 'react';
+import Hero from '../components/Hero';
 
-function PortfolioPage () {
+function PortfolioPage (props) {
 
     return(
-        <p>  Portfolio works!</p>
+        <div>
+         <Hero title={props.title} />
+         
+        </div>
     )
     
 }

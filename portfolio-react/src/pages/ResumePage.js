@@ -1,9 +1,13 @@
 import React from 'react';
+import Hero from '../components/Hero';
 
-function ResumePage () {
+function ResumePage (props) {
 
     return(
-        <p> Resume works!</p>
+        <div>
+         <Hero title={props.title} />
+         
+        </div>
     )
     
 }
