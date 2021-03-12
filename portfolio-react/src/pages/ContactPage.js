@@ -15,11 +15,11 @@ class ContactPage extends React.Component {
                 <Content>
                     <Container fluid={true}>
                         <Row className="border-top justify-content-between p-3">
-                            <a className='text-link' href="mailto:lauraburch.lb@gmail.com" target="blank">Email</a>
-                            <a className='text-link' href="https://github.com/LauraGwendolynBurch/" target="blank">Github</a>
-                            <a className='text-link' href="https://www.linkedin.com/in/laura-gwendolyn-burch-7b1663b1/" target="blank">Linkedin</a>
+                            <a className='text-link' href="mailto:lauraburch.lb@gmail.com" target="blank"  rel="noopener noreferrer">Email</a>
+                            <a className='text-link' href="https://github.com/LauraGwendolynBurch/" target="blank"  rel="noopener noreferrer">Github</a>
+                            <a className='text-link' href="https://www.linkedin.com/in/laura-gwendolyn-burch-7b1663b1/" target="blank"  rel="noopener noreferrer">Linkedin</a>
                         </Row>
-                        <ContactImage fluid={true} />
+                        <ContactImage />
                     </Container>
                 </Content>
             </div>
