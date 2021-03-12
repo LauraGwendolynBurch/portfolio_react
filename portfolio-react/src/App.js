@@ -30,7 +30,6 @@ class App extends React.Component {
       home: {
         title: "Full Stack Website Developer",
         subtitle: "Ideas | Creating | Design",
-        text: "Portfolio"
       },
       aboutMe: {
         title: "About Me",
@@ -52,8 +51,8 @@ class App extends React.Component {
   render() {
     return (
       <Router>
-        <Container className="p-o" fluid={true}>
-          <Navbar className="border-bottom" bg="transparent" expand="lg">
+        <Container className="p-o" fluid={true} style={{backgroundColor: 'rgb(245, 217, 205)'}}>
+          <Navbar className="border-bottom" bg="transparent" expand="lg" >
             <Navbar.Brand>Laura Gwendolyn Burch</Navbar.Brand>
             <Navbar.Toggle className="border-0"aria-controls="navbar-toggle"/>
             <Navbar.Collapse id="navbar-toggle">

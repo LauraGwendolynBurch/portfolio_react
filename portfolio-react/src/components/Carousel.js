@@ -6,12 +6,6 @@ import Row from 'react-bootstrap/esm/Row';
 
 import testImg from '../assets/images/testImg.jpg'
 
-// import moduleName from '../assets/images/'
-// import moduleName from '../assets/images/'
-// import moduleName from '../assets/images/'
-// import moduleName from '../assets/images/'
-// import moduleName from '../assets/images/'
-
 class Carousel extends React.Component {
 
     constructor(props) {
@@ -94,7 +88,7 @@ class Carousel extends React.Component {
 
     render() {
         return (
-            <Container fluid={true}>
+            <Container >
             <Row className="justify-content-around">
                 {this.makeItems(this.state.items)}
             </Row>

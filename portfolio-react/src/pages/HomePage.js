@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Carousel from '../components/Carousel';
+import BackgroundImage from '../components/BackgroundImage'
 import Hero from '../components/Hero'
 
 function HomePage(props) {
@@ -8,7 +8,8 @@ function HomePage(props) {
     return (
         <div>
             <Hero title={props.title} subtitle={props.subtitle} text={props.text} />
-            <Carousel />
+            <BackgroundImage fluid={true}/>
+           
         </div>
     )
 
