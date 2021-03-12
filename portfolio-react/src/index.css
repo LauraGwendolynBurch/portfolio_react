@@ -40,16 +40,26 @@ code {
 
 body, html {
   height: 100%;
-  }
-  .bg {
+}
+
+.bg {
   background-image: url("./assets/images/hero.jpg");
   height: 100vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  }
+}
 
-  .text-link {
+.text-link {
     color: inherit;
     text-decoration: inherit;
+    font-size: 20px
 }
+
+.cg {
+  background-image: url("./assets/images/chicken2.png");
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }

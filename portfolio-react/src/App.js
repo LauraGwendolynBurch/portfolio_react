@@ -54,7 +54,7 @@ class App extends React.Component {
         <Container className="p-o" fluid={true} style={{backgroundColor: 'rgb(245, 217, 205)'}}>
           <Navbar className="border-bottom" bg="transparent" expand="lg" >
             <Navbar.Brand>Laura Gwendolyn Burch</Navbar.Brand>
-            <Navbar.Toggle className="border-0"aria-controls="navbar-toggle"/>
+            <Navbar.Toggle className="border-0" aria-controls="navbar-toggle"/>
             <Navbar.Collapse id="navbar-toggle">
             <Switch> 
             <Nav className="ml-auto">
