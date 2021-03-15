@@ -12,7 +12,7 @@
 
 ## Locations
 
-Deployed Application Link:
+Deployed Application Link:https://portfolio-react-laura.herokuapp.com/
 
 GitHub Repository Link:https://github.com/LauraGwendolynBurch/portfolio_react
 ## Application Summary
