@@ -6,10 +6,6 @@
 - [Locations](#locations)
 - [Application Summary](#application-summary)
 - [User Story](#user-story)
-- [Business Context](#business-context)
-- [Contributors](#contributors)
-- [Image of Sample Code](##Image-of-Sample-Code)
-- [Image of Application](##Image-of-Application)
 - [Credits](#Credits)
 - [Questions](#Questions)
 - [License](#license)
@@ -20,20 +16,10 @@ Deployed Application Link:
 
 GitHub Repository Link:https://github.com/LauraGwendolynBurch/portfolio_react
 ## Application Summary
+The design mock-up will be used to showcase current and future skills as a developer. This will serve as a placeholder for applications as they are developed.
 
 ## User Story
-
-## Business Context
-
-## Contribution
-None
-## Image of sample code
-![Sample Image code]()
-
-![Sample Image code]()
-
-## Image of Application 
-![Sample Image of Application]()
+This is one of a few portfolios I am working with as I learn new skills.
 
 ## Credits
 Anna Conover (tutor)
